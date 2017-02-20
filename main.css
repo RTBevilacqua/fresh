@@ -1,0 +1,200 @@
+body {
+	margin: 0 auto;
+	width: 1200px;
+	height: 100%;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background: #F6F2F2;
+    width: 1200px;
+    position: fixed;
+    z-index: 10;
+}
+
+nav h1 {
+	font-family: 'Caveat Brush', helvetica;
+	font-size: 7em;
+}
+
+nav h3 {
+	font-family: 'Montserrat', helvetica;
+	transition: 1s;
+}
+
+nav h3:hover {
+	font-weight: bold;
+}
+
+nav h1:hover,
+nav h3:hover {
+	cursor: pointer;
+}
+
+.hero {
+	background: #FFF900;
+    width: 100%;
+    margin: 0 auto;
+    padding: 7% 0;
+    z-index: -10;
+    height: 620px;
+    position: relative;
+    top: 136px;
+}
+
+#hero-items {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#hero-img {
+	width: 22%;
+	z-index: 1;
+}
+
+#hero-text {
+	display: inline-block;
+	font-family: 'Montserrat', helvetica;
+}
+
+#big {
+	font-size: 9em;
+	position: relative;
+    bottom: 49px;
+    font-family: 'Roboto Slab', helvetica;
+}
+
+#bold {
+	font-size: 7em;
+	position: relative;
+    bottom: 29px;
+    font-weight: bold;
+    font-family: Oswald, helvetica;
+
+}
+
+#delicious {
+	font-size: 4em;
+	position: relative;
+    top: 13px;
+    font-family: Raleway, helvetica;
+}
+
+
+/*------------------------------ABOUT-----------------------------*/
+
+#about {
+	height: 600px;
+	background: #785BF7;
+	margin: 78px auto 0;
+	color: white;
+	font-size: 4em;
+	font-family: 'Montserrat', helvetica;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#about-text {
+	margin-top: 2%;
+}
+
+.lg {
+	font-size: 3em;
+}
+
+.md {
+	font-size: 2em;
+}
+
+.sm {
+	font-size: .5em;
+}
+
+
+
+/*------------------------------SODAS-----------------------------*/
+
+#sodas {
+	height: 570px;
+	width: 100%;
+	background: #FFAA1D;
+	font-family: 'Montserrat', helvetica;
+
+}
+
+#sodas div {
+	display: flex;
+	align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 26px;
+}
+
+#sodas img {
+	width: 10%;
+	margin: 2% 6%;
+	transition: .5s;
+}
+#sodas img:hover {
+	width: 14%;
+}
+
+
+/*------------------------------FUN-----------------------------*/
+
+#fun {
+	width: 100%;
+	height: 570px;
+	background: #382B52;
+}
+
+
+
+
+
+
+/*------------------------------CONTACT-----------------------------*/
+
+#contact {
+	background: #E03CB7;
+	width: 100%;
+	height: 570px;
+}
+
+#contact form {
+    width: 45%;
+    height: 70%;
+    padding: 40px;
+    background: #FFFAFA;
+    margin: 0 auto;
+    display: block;
+    position: relative;
+    top: 15%;
+    font-size: 2em;
+    font-family: 'Montserrat', helvetica; 
+}
+
+input {
+    width: 100%;
+    height: 50px;
+}
+
+button {
+	border: none;
+    border-radius: 5%;
+    background: #3EEDD4;
+    width: 128px;
+    display: block;
+    margin: 22px auto 0;
+    box-shadow: 0px 0px 6px lightgrey;
+}
+
+
+
+
+
